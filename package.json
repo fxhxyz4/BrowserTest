@@ -1,0 +1,17 @@
+{
+	"name": "JSad",
+	"version": "1.0.0",
+	"description": "lol",
+	"keywords": [
+		"html5",
+		"css",
+		"javascript",
+		"ad"
+	],
+	"author": "fxhxyz <fxhxyz@proton.me> (https://fxhxyz4.github.io)",
+	"homepage": "https://fxhxyz4.github.io",
+	"license": "MIT",
+	"scripts": {
+		"node": "node -v && node index.js"
+	}
+}

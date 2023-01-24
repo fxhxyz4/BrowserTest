@@ -1,0 +1,122 @@
+:root {
+	--font: "Roboto", sans-serif;
+	--bg-color: #000000;
+	--color: #ffffff;
+	--backdrop-bg: rgb(48, 48, 48);
+	--hover: rgb(211, 211, 211);
+	--gradient1: #5d52ff;
+	--gradient2: rgb(0, 255, 234);
+}
+
+html {
+	box-sizing: border-box;
+	font-family: var(--font);
+	font-style: normal;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: var(--bg-color);
+	color: var(--color);
+	text-align: center;
+	margin: 0 auto;
+	user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+.is-hidden {
+	opacity: 0;
+	pointer-events: none;
+}
+
+.backdrop {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 300px;
+	width: 300px;
+	background-color: var(--backdrop-bg);
+	border: 1px solid var(--color);
+	border-radius: 5px;
+	font-size: 22px;
+}
+
+.backdrop__content {
+	padding-top: 100px;
+}
+
+input[type="number"] {
+	outline: none;
+	font-size: 20px;
+	margin-top: 12px;
+	border-radius: 4px;
+	padding: 3px 10px 3px 10px;
+	margin-bottom: 15px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.subtitle,
+label {
+	border-bottom: 1px solid var(--color);
+}
+
+.span {
+	background: linear-gradient(58deg, var(--gradient1), rgb(0, 255, 234), rgb(0, 255, 234), var(--gradient1));
+	background-clip: text;
+	-webkit-background-clip: text;
+	background-size: 150% 150%;
+	animation: fxh 2s linear infinite;
+	-webkit-animation: fxh 2s linear infinite;
+	-webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+}
+
+@keyframes fxh {
+	0% {
+		background-position: 0%;
+	}
+
+	100% {
+		background-position: 300%;
+	}
+}
+
+button {
+	display: inline-block;
+	border: none;
+	background-color: var(--color);
+	color: var(--bg-color);
+	border-radius: 7px;
+	cursor: pointer;
+	padding: 8px 28px;
+	font-size: 20px;
+	transition: background-color 276ms ease;
+}
+
+button:hover,
+button:focus {
+	background-color: var(--hover);
+}
+
+button[type="submit"] {
+	padding: 7px 24px;
+	font-size: 18px;
+}
