@@ -1,2 +1,14 @@
-node_modules
+node_modules/
+
+.vscode/
+
+data/
+
+dist/
+
+src/cache
+
+*.lock
+
+*.txt
 
