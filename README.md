@@ -31,7 +31,7 @@
 
 #
 
-### website:
+### Website:
 
 - #### hosted by [vercel❤️](https://vercel.com)
 
