@@ -11,13 +11,13 @@
 ```
     📁BrowserTest
         ｜──📁assets
-                image1.png
+                📄image1.png
         ｜──📁data
                 📜data.json
         ｜──📁src
             ｜──📁scripts
                     📄main.js
-            📕index.html
+            📄index.html
 ```
 
 #
