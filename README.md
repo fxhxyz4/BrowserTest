@@ -22,6 +22,6 @@
 
 #
 
-### LICENSE: MIT
+### LICENSE: **MIT**
 
 #
