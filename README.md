@@ -22,7 +22,7 @@
 
 #
 
-### website
+### website:
 
 - #### https://browser-test-seven.vercel.app
 
@@ -30,6 +30,8 @@
 
 #
 
-### LICENSE: **MIT**
+### LICENSE:
+
+- #### **MIT**
 
 #
