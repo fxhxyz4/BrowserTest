@@ -15,8 +15,6 @@
 
 ### Files structure:
 
-#
-
 ```
     📁BrowserTest
         ｜──📁assets
