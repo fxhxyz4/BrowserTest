@@ -24,6 +24,8 @@
 
 ### website:
 
+- #### hosted by [vercel](https://vercel.com)
+
 - #### https://browser-test-seven.vercel.app
 
 - #### https://browser-test-fxhxyz4.vercel.app
