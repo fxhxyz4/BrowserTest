@@ -4,6 +4,15 @@
 
 #
 
+### Description:
+
+- #### the data.json file contains 36 links to phishing sites.
+- #### main.js loops through the array and opens the pages in the browser.
+
+- #### by clicking on the link below, you take full responsibility for your actions.
+
+#
+
 ### Files structure:
 
 #
